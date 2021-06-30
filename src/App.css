@@ -1,0 +1,74 @@
+.App {
+  display: grid;
+  margin: auto;
+  padding: 40px;
+}
+
+.App h1 {
+  margin: auto;
+  text-align: center;
+  color: rgb(255, 0, 149);
+  height: 10vh;
+  width: 100%;
+}
+
+.loading {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.list img {
+  height: 200px;
+  /*width: minmax(150px, auto-fit);*/
+  width: 100%;
+}
+
+.item {
+  display: grid;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 0, 149);
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.display_body {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(255, 0, 149);
+}
+
+.right {
+  float: right;
+}
+
+.menu_btn {
+  height: auto;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.menu_btn button {
+  color: rgb(255, 0, 149);
+  margin: 5px;
+  padding: 10px;
+  width: 100px;
+  border-color: rgb(255, 0, 149);
+  border: 0.5px;
+  border-style: solid;
+  background-color: transparent;
+}
